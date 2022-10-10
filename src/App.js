@@ -1,15 +1,22 @@
 import './App.css';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
+
+
+import Cards from "./pages/Cards";
+import AddCard from "./pages/AddCard";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Routes>
+        <Route path="/" element={<Cards />}/>
+        <Route path="/cards" element={<Cards />}/>
+        <Route path="/addcard" element={<AddCard/>}/>
+      </Routes>
     </div>
   );
 }
 
 export default App;
+

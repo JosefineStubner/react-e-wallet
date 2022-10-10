@@ -1,0 +1,69 @@
+.card {
+  width: 350px;
+  height: 190px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5px;
+  border: 1px solid black;
+  -webkit-text-stroke: 0.3px black;
+  background-color: #dddddd;
+  color: #222831;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.validitycontainer {
+  text-align: center;
+}
+
+.issuer {
+  display: flex;
+  align-self: flex-end;
+  top: 1px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.number {
+  font-size: large;
+}
+
+.heading {
+  font-size: small;
+  line-height: 60%;
+  color: black;
+}
+
+.name {
+  line-height: 60%;
+}
+
+.cardWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  right: 15px;
+  width: 10px;
+  font-size: medium;
+  color: #0e2337;
+}
+
+footer {
+  text-align: center;
+  color: #edebeb;
+  background-color: #234d8b;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 5em;
+  padding: 1em;
+  height: 6em;
+}
